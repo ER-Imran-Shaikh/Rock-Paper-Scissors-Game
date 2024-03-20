@@ -56,7 +56,7 @@ const results = (userWin) => {
 }
 
 const playGame = (userChoice) => {
-            console.log("User choice is",userChoice);
+            console.log("Your choice is",userChoice);
            const compChoice = genCompChoice();
            console.log("Computer choice is ",compChoice);
            if (userChoice === compChoice){
